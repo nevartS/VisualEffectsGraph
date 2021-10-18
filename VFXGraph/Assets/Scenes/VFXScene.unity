@@ -1360,6 +1360,7 @@ VFXRenderer:
   m_Materials:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1400,9 +1401,12 @@ VisualEffect:
       - m_Value: 50
         m_Name: DistortionScale
         m_Overridden: 0
-      - m_Value: 2
+      - m_Value: 1.8
         m_Name: DissolveAmount
         m_Overridden: 0
+      - m_Value: 0.7
+        m_Name: YOffset
+        m_Overridden: 1
     m_Vector2f:
       m_Array:
       - m_Value: {x: 0.5, y: 0.5}
@@ -1411,7 +1415,10 @@ VisualEffect:
     m_Vector3f:
       m_Array: []
     m_Vector4f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 8.47419, y: 4.214911, z: 1.7303319, w: 1}
+        m_Name: DomeColor
+        m_Overridden: 0
     m_Uint:
       m_Array: []
     m_Int:
