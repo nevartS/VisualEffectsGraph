@@ -13,30 +13,18 @@ MonoBehaviour:
   m_Name: VFXUI
   m_EditorClassIdentifier: 
   groupInfos:
-  - title: ORB ADDITIVE
+  - title: GROUND CIRCLE ADDITIVE
     position:
       serializedVersion: 2
-      x: 0
-      y: 0
-      width: 100
-      height: 100
+      x: 710
+      y: -249
+      width: 680
+      height: 1655
     contents:
     - model: {fileID: 8926484042661614555}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614596}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614558}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614599}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614580}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614605}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614608}
@@ -48,71 +36,23 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614612}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614626}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614628}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661614585}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661614589}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614622}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614610}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614591}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614593}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661614631}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614612}
-      id: 1
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614626}
-      id: 1
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614628}
-      id: 1
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614631}
-      id: 1
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614633}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614637}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614638}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614642}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614644}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614646}
       id: 0
       isStickyNote: 0
   stickyNoteInfos: []
   categories: []
   uiBounds:
     serializedVersion: 2
-    x: 299
+    x: 710
     y: -249
-    width: 1410
-    height: 1911
+    width: 680
+    height: 1633
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,7 +63,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: VFX_Graph_OrbExplosion
+  m_Name: VFX_Graph_GroundAoE
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -132,32 +72,15 @@ MonoBehaviour:
   - {fileID: 8926484042661614558}
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
-  - {fileID: 8926484042661614605}
   - {fileID: 8926484042661614608}
   - {fileID: 8926484042661614612}
-  - {fileID: 8926484042661614626}
   - {fileID: 8926484042661614628}
   - {fileID: 8926484042661614631}
-  - {fileID: 8926484042661614633}
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo:
-  - name: Y_Offset
-    path: Y_Offset
-    tooltip: 
-    sheetType: m_Float
-    realType: Single
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Lifetime
     path: Lifetime
     tooltip: 
@@ -181,27 +104,13 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 1
     min: -Infinity
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: OrbMovementCurve
-    path: OrbMovementCurve
-    tooltip: 
-    sheetType: m_AnimationCurve
-    realType: AnimationCurve
-    defaultValue:
-      m_Type:
-        m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"frames":[{"time":0.0,"value":0.0,"inTangent":3.9720685482025148,"outTangent":3.9720685482025148,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.199798583984375,"value":0.999114990234375,"inTangent":0.026630602777004243,"outTangent":0.026630602777004243,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.25112083554267886,"value":0.7006471753120422,"inTangent":-5.2860188484191898,"outTangent":-5.2860188484191898,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.40111687779426577,"value":0.9974743127822876,"inTangent":-0.043176356703042987,"outTangent":-0.043176356703042987,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.45023274421691897,"value":0.7999715805053711,"inTangent":-4.24639892578125,"outTangent":-4.24639892578125,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.6004467010498047,"value":1.0497064590454102,"inTangent":-0.0416131392121315,"outTangent":-0.0416131392121315,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.6505870223045349,"value":0.9013538956642151,"inTangent":-3.1985034942626955,"outTangent":-3.1985034942626955,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.8999999761581421,"value":1.2999999523162842,"inTangent":0.007430811412632465,"outTangent":0.007430811412632465,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.0,"value":0.0,"inTangent":-11.842291831970215,"outTangent":-11.842291831970215,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
-  - name: OrbSizeCurve
-    path: OrbSizeCurve
+  - name: SizeCurve
+    path: SizeCurve
     tooltip: 
     sheetType: m_AnimationCurve
     realType: AnimationCurve
@@ -214,8 +123,8 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: OrbGradient
-    path: OrbGradient
+  - name: Gradient
+    path: Gradient
     tooltip: 
     sheetType: m_Gradient
     realType: Gradient
@@ -240,7 +149,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: VFX_Graph_OrbExplosion
+  m_Name: VFX_Graph_GroundAoE
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -358,7 +267,6 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children:
-  - {fileID: 8926484042661614599}
   - {fileID: 8926484042661614580}
   m_UIPosition: {x: 941, y: 238}
   m_UICollapsed: 0
@@ -705,7 +613,6 @@ MonoBehaviour:
   - {fileID: 8926484042661614558}
   - {fileID: 8926484042661614583}
   - {fileID: 8926484042661614585}
-  - {fileID: 8926484042661614633}
   dataType: 0
   capacity: 32
   stripCapacity: 16
@@ -1203,8 +1110,6 @@ MonoBehaviour:
   - link:
     - context: {fileID: 8926484042661614585}
       slotIndex: 0
-    - context: {fileID: 8926484042661614633}
-      slotIndex: 0
   integration: 0
   angularIntegration: 0
   ageParticles: 1
@@ -1225,19 +1130,17 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children:
-  - {fileID: 8926484042661614589}
-  - {fileID: 8926484042661614622}
   - {fileID: 8926484042661614610}
   - {fileID: 8926484042661614591}
   - {fileID: 8926484042661614593}
-  m_UIPosition: {x: 573, y: 806}
+  m_UIPosition: {x: 941, y: 701}
   m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots:
   - {fileID: 8926484042661614630}
   - {fileID: 8926484042661614586}
   m_OutputSlots: []
-  m_Label: ORB ADDITIVE
+  m_Label: GROUND CIRCLE ADDITIVE
   m_Data: {fileID: 8926484042661614568}
   m_InputFlowSlot:
   - link:
@@ -1934,7 +1837,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614609}
       inputSlot: {fileID: 8926484042661614607}
-    position: {x: 761, y: 508}
+    position: {x: 759, y: 410}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614609
@@ -1995,7 +1898,7 @@ MonoBehaviour:
   m_OutputSlots: []
   m_Disabled: 0
   attribute: size
-  Composition: 2
+  Composition: 0
   Source: 0
   Random: 0
   channels: 6
@@ -2076,14 +1979,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614613}
       inputSlot: {fileID: 8926484042661614611}
-    position: {x: 413, y: 1275}
-    expandedSlots: []
-    expanded: 0
-  - m_Id: 1
-    linkedSlots:
-    - outputSlot: {fileID: 8926484042661614613}
-      inputSlot: {fileID: 8926484042661614643}
-    position: {x: 1100, y: 1275}
+    position: {x: 778, y: 1072}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614613
@@ -2111,7 +2007,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5
+      m_SerializableObject: 1
     m_Space: 2147483647
   m_Property:
     name: o
@@ -2121,7 +2017,6 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614611}
-  - {fileID: 8926484042661614643}
 --- !u!114 &8926484042661614622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2360,12 +2255,12 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614629}
-  m_ExposedName: OrbGradient
+  m_ExposedName: Gradient
   m_Exposed: 1
   m_Order: 5
   m_Category: 
@@ -2386,14 +2281,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614629}
       inputSlot: {fileID: 8926484042661614594}
-    position: {x: 370, y: 1515}
-    expandedSlots: []
-    expanded: 0
-  - m_Id: 1
-    linkedSlots:
-    - outputSlot: {fileID: 8926484042661614629}
-      inputSlot: {fileID: 8926484042661614647}
-    position: {x: 1057, y: 1515}
+    position: {x: 735, y: 1307}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614629
@@ -2431,7 +2319,6 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614594}
-  - {fileID: 8926484042661614647}
 --- !u!114 &8926484042661614630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2482,12 +2369,12 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
   - {fileID: 8926484042661614632}
-  m_ExposedName: OrbSizeCurve
+  m_ExposedName: SizeCurve
   m_Exposed: 1
   m_Order: 4
   m_Category: 
@@ -2508,14 +2395,7 @@ MonoBehaviour:
     linkedSlots:
     - outputSlot: {fileID: 8926484042661614632}
       inputSlot: {fileID: 8926484042661614592}
-    position: {x: 359, y: 1426}
-    expandedSlots: []
-    expanded: 0
-  - m_Id: 1
-    linkedSlots:
-    - outputSlot: {fileID: 8926484042661614632}
-      inputSlot: {fileID: 8926484042661614645}
-    position: {x: 1046, y: 1426}
+    position: {x: 735, y: 1180}
     expandedSlots: []
     expanded: 0
 --- !u!114 &8926484042661614632
@@ -2553,7 +2433,6 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614592}
-  - {fileID: 8926484042661614645}
 --- !u!114 &8926484042661614633
 MonoBehaviour:
   m_ObjectHideFlags: 0
