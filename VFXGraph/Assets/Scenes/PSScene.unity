@@ -969,21 +969,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1450957570814827798, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6089856241592385034, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6089856241592385034, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6097134533291046064, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6097134533291046064, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.86
+      objectReference: {fileID: 0}
     - target: {fileID: 6509526575596109913, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6509526575596109913, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.8458495
+      value: 39.91
       objectReference: {fileID: 0}
     - target: {fileID: 6509526575596109913, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5583794
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6509526575596109913, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.61743593
+      value: -39.85
       objectReference: {fileID: 0}
     - target: {fileID: 6509526575596109913, guid: 162836b380ae4224e83488c5c306ea24, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1258,6 +1278,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4724620952271906399, guid: f25e2c949f00acd449fda2a8356b612e, type: 3}
+      propertyPath: looping
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4851849518940606245, guid: f25e2c949f00acd449fda2a8356b612e, type: 3}
       propertyPath: m_Name
       value: PS_CloudBurst
@@ -1268,7 +1292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4854366501815492131, guid: f25e2c949f00acd449fda2a8356b612e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 39.98
       objectReference: {fileID: 0}
     - target: {fileID: 4854366501815492131, guid: f25e2c949f00acd449fda2a8356b612e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1276,7 +1300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4854366501815492131, guid: f25e2c949f00acd449fda2a8356b612e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -30.01
       objectReference: {fileID: 0}
     - target: {fileID: 4854366501815492131, guid: f25e2c949f00acd449fda2a8356b612e, type: 3}
       propertyPath: m_LocalRotation.w
