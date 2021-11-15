@@ -1,0 +1,856 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 22489.1000; Version 2009; 64bit' Language: 'tr' Physical Memory: 16242 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50367
+Successfully changed project path to: C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph
+C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001291 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 64.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2952 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.7 MB.
+System memory in use after: 201.7 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 4.501900 ms (FindLiveObjects: 1.032900 ms CreateObjectMapping: 0.300700 ms MarkObjects: 1.726200 ms  DeleteObjects: 1.440700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/VFXGraphs/VFX_Sparks_01.prefab
+  artifactKey: Guid(cfed2267689e10e48bddb94108e5b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/VFXGraphs/VFX_Sparks_01.prefab using Guid(cfed2267689e10e48bddb94108e5b686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fdd3f134b2c5490ce5f02132a0f079') in 0.089396 seconds
+  Import took 0.096303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.872493 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b849e0260c5b1d0271c6bbe83424ce') in 0.014361 seconds
+  Import took 0.019472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.763431 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002357 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.008454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031635 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003410 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.007966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031867 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002291 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036436 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002353 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.007587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029131 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002179 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024223 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002102 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021248 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002093 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018722 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002012 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017730 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002315 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017225 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003856 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.007914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024166 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002043 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023792 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002062 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018599 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003661 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020357 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002118 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027809 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003852 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.008030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022874 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002064 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029760 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002036 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024191 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002031 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023698 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002176 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021650 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002070 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026975 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002129 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026229 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002027 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027457 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002332 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026395 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002028 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046847 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002058 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025587 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002021 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021302 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002097 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025930 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002249 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035648 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002269 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028062 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002343 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041110 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002970 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.008333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055717 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002337 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.007449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056569 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002273 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022467 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002071 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020615 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001988 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017820 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002120 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028659 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002053 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028511 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002120 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022859 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002302 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.007187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022165 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003645 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.009458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022742 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002133 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024227 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002057 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027672 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002071 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025334 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002085 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029151 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002027 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028718 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002070 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028285 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002239 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022589 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002050 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021675 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002045 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026050 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002122 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029001 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002097 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024114 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002056 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027439 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003493 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.008862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028094 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002085 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026313 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002081 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020145 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002238 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021660 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002302 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018289 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002039 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019121 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002002 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.005648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017926 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002079 seconds
+  ERROR: Build asset version error: assets/art/vfx/vfx_sparks/vfx_graph_sparks.vfx in SourceAssetDB has modification time of '2021-10-19T19:02:39.026877Z' while content on disk has modification time of '2021-11-15T08:25:38.8435732Z'
+  Import took 0.006932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415478 seconds.
+  path: Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx
+  artifactKey: Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/VFX/VFX_Sparks/VFX_Graph_Sparks.vfx using Guid(6de5d54cdf2735a408e6fd126db218cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140af71f77c2a6e1f2c778ada6181b47') in 0.006637 seconds
+  Import took 0.013219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.926998 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph
+  artifactKey: Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph using Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e38f7e606b480f49aab9ef6376241f') in 0.016254 seconds
+  Import took 0.022375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243455 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph
+  artifactKey: Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph using Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e38f7e606b480f49aab9ef6376241f') in 0.005666 seconds
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.897050 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph
+  artifactKey: Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph using Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cab2106a2a95965263aa5dec25f43dd') in 0.004907 seconds
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.447811 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph
+  artifactKey: Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Additive.shadergraph using Guid(b18aa77e6e1b3b947b1cd4367aafc34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cab2106a2a95965263aa5dec25f43dd') in 0.004974 seconds
+  Import took 0.010898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.071263 seconds.
+  path: Assets/Art/Materials/M_Additive.mat
+  artifactKey: Guid(568188e67e6ab9f4fa43531af6de0a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Additive.mat using Guid(568188e67e6ab9f4fa43531af6de0a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4109df4bbb24059e071a8aa41b30c5a') in 0.195836 seconds
+  Import took 0.201185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Art/Materials/M_Dissolve.mat
+  artifactKey: Guid(458d408330263a34398ca0ea99509180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Dissolve.mat using Guid(458d408330263a34398ca0ea99509180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946ebf10edf4bda378e5da00a533873b') in 0.030391 seconds
+  Import took 0.036175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005392 seconds.
+  path: Assets/Art/Materials/M_Dissolve.mat
+  artifactKey: Guid(458d408330263a34398ca0ea99509180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Dissolve.mat using Guid(458d408330263a34398ca0ea99509180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946ebf10edf4bda378e5da00a533873b') in 0.016103 seconds
+  Import took 0.021807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 498.300366 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_09.png
+  artifactKey: Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_09.png using Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2e155c4d456a7f3c7c3643e4b18384') in 0.043313 seconds
+  Import took 0.050450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.297264 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_09.png
+  artifactKey: Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_09.png using Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d4383e24ef9e090fb051d4ddd3c7c0') in 0.013154 seconds
+  Import took 0.018192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005126 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_09.png
+  artifactKey: Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_09.png using Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d4383e24ef9e090fb051d4ddd3c7c0') in 0.010013 seconds
+  Import took 0.014763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.243816 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_09.png
+  artifactKey: Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_09.png using Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8928eb6f24f82a82ef9fab4fd856fc48') in 0.013467 seconds
+  Import took 0.018356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004674 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_09.png
+  artifactKey: Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_09.png using Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8928eb6f24f82a82ef9fab4fd856fc48') in 0.009081 seconds
+  Import took 0.013406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.241921 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_02.png
+  artifactKey: Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_02.png using Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec325cc8c97ef3570c9ff580c55b140') in 0.016669 seconds
+  Import took 0.023117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_03.png
+  artifactKey: Guid(60d224affeaecf84ead5a8b24c6c9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_03.png using Guid(60d224affeaecf84ead5a8b24c6c9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6078342da44ea705f76aa9f9dcb77a') in 0.015128 seconds
+  Import took 0.020105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_05.png
+  artifactKey: Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_05.png using Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641ea5085fcfc9447f0a7c692c4201c') in 0.017502 seconds
+  Import took 0.023707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_07.TGA
+  artifactKey: Guid(fb8d8da20d081a847a2f7cf657d95ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_07.TGA using Guid(fb8d8da20d081a847a2f7cf657d95ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b63050189752f17c05eed7457606ff0') in 0.024060 seconds
+  Import took 0.029260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_04.png
+  artifactKey: Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_04.png using Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d075409751d39bf13693c7ca34c6ed') in 0.015469 seconds
+  Import took 0.020684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_08.TGA
+  artifactKey: Guid(64b61a3bc50bbc14aa2463868d9eb309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_08.TGA using Guid(64b61a3bc50bbc14aa2463868d9eb309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3603632a6c0208dd6ca678cf76fef13d') in 0.016642 seconds
+  Import took 0.023338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.400114 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_01.png
+  artifactKey: Guid(b4f5dedca2f175846af885ccfa6f3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_01.png using Guid(b4f5dedca2f175846af885ccfa6f3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53b683c574a962fee1759bed7ef86f2') in 0.015634 seconds
+  Import took 0.021663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024398 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_01.png
+  artifactKey: Guid(b4f5dedca2f175846af885ccfa6f3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_01.png using Guid(b4f5dedca2f175846af885ccfa6f3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53b683c574a962fee1759bed7ef86f2') in 0.008105 seconds
+  Import took 0.014392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_09.png
+  artifactKey: Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_09.png using Guid(f4b5f51cb79151c47a03c3242689dec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1e2e577ae4504506845fe30686517c') in 0.015238 seconds
+  Import took 0.020876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_06.png
+  artifactKey: Guid(497f35906e684b0459b62e395f9be765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_06.png using Guid(497f35906e684b0459b62e395f9be765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348cb796f92b901b0c60983b15af5c9e') in 0.015313 seconds
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_02.png
+  artifactKey: Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_02.png using Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9654002f301f3bd99f872a109cbdbb8f') in 0.014684 seconds
+  Import took 0.018911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_03.png
+  artifactKey: Guid(60d224affeaecf84ead5a8b24c6c9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_03.png using Guid(60d224affeaecf84ead5a8b24c6c9995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2079d4f9f79f7e16160de2e514b11db0') in 0.016368 seconds
+  Import took 0.022240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_05.png
+  artifactKey: Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_05.png using Guid(4b0225a5290cbe540bc56e26a8682db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab4cae1e124dea728ad71fbd4977232') in 0.016568 seconds
+  Import took 0.021794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Art/Textures/Circles/T_Circle_04.png
+  artifactKey: Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/Circles/T_Circle_04.png using Guid(c8ada4fdced7c07409542d983b96835e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5699a5b768f0c768c7eb57feda501e8') in 0.014633 seconds
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6470.417292 seconds.
+  path: Assets/Art/Materials/M_Additive_01.mat
+  artifactKey: Guid(568188e67e6ab9f4fa43531af6de0a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Additive_01.mat using Guid(568188e67e6ab9f4fa43531af6de0a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f0b10ce4206e8fb6c4019e9714e2d2') in 0.079080 seconds
+  Import took 0.123026 seconds .
+
