@@ -7,11 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_Liquid
-  m_Shader: {fileID: -6465566751694194690, guid: 41f0935ce9485fd41abed8f34de28f0e, type: 3}
+  m_Name: M_ToxicWater
+  m_Shader: {fileID: -6465566751694194690, guid: 1500eb88dd916104dae61243aee72063, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -43,12 +43,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _GradientNoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 771bec091a0ab8f4d97f7b4bfa41ab06, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -61,6 +69,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VoronoiTexture:
+        m_Texture: {fileID: 2800000, guid: c1fcb08ca1b1cf4479ed761c72de99ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -87,33 +99,42 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvironmentReflections: 1
-    - _FillAmount: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metallic: 0
+    - _Metallic: 0.4
+    - _NoiseScale: 0.5
+    - _NormalStrength: 0.01
+    - _NormalsStrength: 0.12
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 1.4
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _WobbleX: 0
-    - _WobbleZ: 0
+    - _Transparency: 0
+    - _TransparencyMask: 0
+    - _VoronoiPower: 10
+    - _VoronoiScale: 2.25
+    - _WobbleAmount: 0.04
+    - _WobbleFrequency: 4
+    - _WobbleHeight: 0.03
+    - _WobbleSpeed: 8
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.57254905, g: 1.5843138, b: 0.2901961, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _SideColor: {r: 0.23074007, g: 0.45078585, b: 0.8631574, a: 1}
+    - _NoiseSpeed: {r: 0, g: -0.25, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _TopColor: {r: 0.25415218, g: 0.7681514, b: 0.9911022, a: 1}
+    - _VoronoiColor: {r: 1.0631092, g: 2.0901806, b: 0.3333478, a: 1}
+    - _VoronoiSpeed: {r: 0.1, g: -0.5, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3241401217185779427
+--- !u!114 &351078040081506949
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
