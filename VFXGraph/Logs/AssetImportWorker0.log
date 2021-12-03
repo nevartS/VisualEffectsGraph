@@ -15,11 +15,11 @@ F:/Projects/VisualEffectsGraph/VFXGraph
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64478
+58574
 Successfully changed project path to: F:/Projects/VisualEffectsGraph/VFXGraph
 F:/Projects/VisualEffectsGraph/VFXGraph
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -30,183 +30,327 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
     Vendor:   
     VRAM:     5991 MB
-    Driver:   30.0.14.9649
+    Driver:   30.0.14.9709
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001010 seconds.
+Registered in 0.000842 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  0.980 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001620 seconds.
+Registered in 0.001669 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.06 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.948 seconds
+- Completed reload, in  0.872 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2951 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.9 MB.
-System memory in use after: 132.1 MB.
+Unloading 3458 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.7 MB.
+System memory in use after: 153.9 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3417.
-Total: 2.292100 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.167000 ms MarkObjects: 1.804400 ms  DeleteObjects: 0.061600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/VFXScene 1.unity
-  artifactKey: Guid(a42b09bfced6bd34e97f78be5323cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/VFXScene 1.unity using Guid(a42b09bfced6bd34e97f78be5323cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87153a9c271963a836bbdc0352e6aecd') in 0.015248 seconds
-  Import took 0.056781 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 1.969800 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.145000 ms MarkObjects: 1.471400 ms  DeleteObjects: 0.076600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.559800 seconds.
-  path: Assets/Scenes/InteractiveGrass.unity
-  artifactKey: Guid(a42b09bfced6bd34e97f78be5323cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InteractiveGrass.unity using Guid(a42b09bfced6bd34e97f78be5323cecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654c401f1b50331a996f1569c4d965cb') in 0.006679 seconds
-  Import took 0.025211 seconds .
+  path: Assets/Scripts/VFX/SkinnedMeshToMesh.cs
+  artifactKey: Guid(7665789e6679aba4a855fcdad6c1cc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VFX/SkinnedMeshToMesh.cs using Guid(7665789e6679aba4a855fcdad6c1cc57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968e95b80b350a8f50e9b01e67506d8f') in 0.076662 seconds
+  Import took 0.120021 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.559066 seconds.
-  path: Assets/Art/Materials/Circle/M_Circle_03.mat
-  artifactKey: Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Circle/M_Circle_03.mat using Guid(9aaa13d175bcf1c4b8acc4d930ee06ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e95bcefaf1b035cc08fe70f04ecf1e7') in 0.293814 seconds
-  Import took 0.360150 seconds .
+  Time since last request: 0.000691 seconds.
+  path: Assets/Scripts/VFX
+  artifactKey: Guid(bfa1c04e9153dfd43942738536703af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VFX using Guid(bfa1c04e9153dfd43942738536703af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e54f03e35e53161e5395f8f020c6369') in 0.041383 seconds
+  Import took 0.064436 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Art/Materials/Crack/M_Crack_02.mat
-  artifactKey: Guid(91fed33cc38deab4fbdb803e4f223fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Crack/M_Crack_02.mat using Guid(91fed33cc38deab4fbdb803e4f223fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e246e56aa4debd283cb8eda135d4f1e') in 0.098959 seconds
-  Import took 0.108504 seconds .
+  Time since last request: 2.446508 seconds.
+  path: Assets/Scripts/VFX/MeshPosition.cs
+  artifactKey: Guid(7e8e45acac91a8c45814cab71c916d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/VFX/MeshPosition.cs using Guid(7e8e45acac91a8c45814cab71c916d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a669d4f81d6a35e770fd193c6fb07f64') in 0.005294 seconds
+  Import took 0.019880 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/Art/Materials/Lightning/M_Lightning_02.mat
-  artifactKey: Guid(e42fe5a1f5d4dab44ba2d3e107678bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Lightning/M_Lightning_02.mat using Guid(e42fe5a1f5d4dab44ba2d3e107678bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece5a61dd0ca735318a36c605133312e') in 0.029292 seconds
-  Import took 0.046166 seconds .
+  Time since last request: 6.444452 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773a38ba2e964fa0bcdb92aac6b14e47') in 0.005375 seconds
+  Import took 0.032094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Art/Materials/Skybox/M_Skybox_01.mat
-  artifactKey: Guid(62ae18c09ef2dd646a6e9bee812108ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Skybox/M_Skybox_01.mat using Guid(62ae18c09ef2dd646a6e9bee812108ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798be5a6a567663906978687ea2f9153') in 0.249009 seconds
-  Import took 0.261241 seconds .
+  Time since last request: 16.840863 seconds.
+  path: Assets/Scripts/LiquidEffect
+  artifactKey: Guid(7e03f3342a38f484dac6d58d0baaaa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect using Guid(7e03f3342a38f484dac6d58d0baaaa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ea839ce52ae9744b4586b497e59a34') in 0.006257 seconds
+  Import took 0.029983 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Art/Materials/Flare/M_Flare_04.mat
-  artifactKey: Guid(0847e1137284fba48a169ca162e08038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Flare/M_Flare_04.mat using Guid(0847e1137284fba48a169ca162e08038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70519dfc653dac6751aba2f52a1205b0') in 0.070184 seconds
-  Import took 0.084632 seconds .
+  Time since last request: 5.742323 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026154158beff3f20cc8406a0f71e681') in 0.005727 seconds
+  Import took 0.010764 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Art/Materials/Skybox/M_Skybox_02.mat
-  artifactKey: Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Skybox/M_Skybox_02.mat using Guid(0ffaa0b7117ba8c47a9d05ae701d4b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0ee2408d915d4d8923e68275ada056') in 0.114165 seconds
-  Import took 0.134013 seconds .
+  Time since last request: 0.003026 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026154158beff3f20cc8406a0f71e681') in 0.001927 seconds
+  Import took 0.006156 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.2 MB.
+System memory in use after: 144.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+Total: 2.421200 ms (FindLiveObjects: 0.388700 ms CreateObjectMapping: 0.209200 ms MarkObjects: 1.755100 ms  DeleteObjects: 0.067000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/Art/Materials/Cloud/M_Cloud_01.mat
-  artifactKey: Guid(453dc05d85b241a42b8f2bcd00988e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Cloud/M_Cloud_01.mat using Guid(453dc05d85b241a42b8f2bcd00988e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c427d2e248cca564a06f043e14f43') in 0.075382 seconds
-  Import took 0.098603 seconds .
+  Time since last request: 541.428665 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419fd8b4762c88f9af5dc767af4647e4') in 0.006333 seconds
+  Import took 0.011521 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Art/Materials/Environment/M_Ground.mat
-  artifactKey: Guid(d34bb4f1d6958914792e2c7fc18e2e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Environment/M_Ground.mat using Guid(d34bb4f1d6958914792e2c7fc18e2e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a06c7f2b877633c8d8df2dd7f2c21ec') in 0.011971 seconds
-  Import took 0.016002 seconds .
+  Time since last request: 0.047404 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419fd8b4762c88f9af5dc767af4647e4') in 0.001880 seconds
+  Import took 0.006429 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001658 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3925.
+Total: 2.258300 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.174400 ms MarkObjects: 1.692800 ms  DeleteObjects: 0.060200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Art/Materials/Flare/M_Flare_01.mat
-  artifactKey: Guid(a5058d915be7b8c4b874a6d45c51d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Flare/M_Flare_01.mat using Guid(a5058d915be7b8c4b874a6d45c51d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0b53037862ed3416d53eaea0470759') in 0.040741 seconds
-  Import took 0.055756 seconds .
+  Time since last request: 23.328691 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0b36d1c9a84e0fa597a71fe4edaaa') in 0.005105 seconds
+  Import took 0.009577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Art/Materials/Environment/M_Mountains.mat
-  artifactKey: Guid(a8872ae7f59cd0b49a2d648d83671e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Environment/M_Mountains.mat using Guid(a8872ae7f59cd0b49a2d648d83671e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc86b62a80ab1f3dff7bb7c1c7ce22c9') in 0.013726 seconds
-  Import took 0.025329 seconds .
+  Time since last request: 0.011220 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0b36d1c9a84e0fa597a71fe4edaaa') in 0.001735 seconds
+  Import took 0.006037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Art/Materials/Crack/M_Crack_01.mat
-  artifactKey: Guid(ebbb787ac10ee484a891d4138ad58d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Crack/M_Crack_01.mat using Guid(ebbb787ac10ee484a891d4138ad58d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948e3a9477f1c7aa46d953047948c0d8') in 0.070687 seconds
-  Import took 0.081079 seconds .
+  Time since last request: 3.269507 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ac01a2f7b037bbb721d9ff2fbe03b7') in 0.002105 seconds
+  Import took 0.007935 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3928.
+Total: 2.214700 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.164800 ms MarkObjects: 1.668600 ms  DeleteObjects: 0.057200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Art/Materials/Flare/M_Flare_03.mat
-  artifactKey: Guid(a0be072ef4b3b424d8c3681767cb617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Flare/M_Flare_03.mat using Guid(a0be072ef4b3b424d8c3681767cb617d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43355c8e7ab5cb73dd55c4ab94f927c6') in 0.082029 seconds
-  Import took 0.093553 seconds .
+  Time since last request: 5.851224 seconds.
+  path: Assets/Scripts/LiquidEffect/Wobble.cs
+  artifactKey: Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LiquidEffect/Wobble.cs using Guid(68469fd9f10ce8d499f839380935de07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca97875817020f1fe354018ee287b68') in 0.004610 seconds
+  Import took 0.008941 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3306 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.3 MB.
+System memory in use after: 144.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3931.
+Total: 2.289300 ms (FindLiveObjects: 0.316700 ms CreateObjectMapping: 0.162600 ms MarkObjects: 1.739400 ms  DeleteObjects: 0.069600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Art/Materials/Lightning/M_Lightning_04.mat
-  artifactKey: Guid(af913eb35874e9f419cbb4b2c092c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Lightning/M_Lightning_04.mat using Guid(af913eb35874e9f419cbb4b2c092c679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711c65c148d9005c049b2d88d19acc67') in 0.040922 seconds
-  Import took 0.053024 seconds .
+  Time since last request: 56.681479 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph
+  artifactKey: Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph using Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19800665ae990e3cf41cef5f408a6004') in 0.022041 seconds
+  Import took 0.026720 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Art/Materials/Smoke/M_Smoke_02.mat
-  artifactKey: Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Smoke/M_Smoke_02.mat using Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d6f5c4843803dc83362d0aed0b5b18') in 0.037526 seconds
-  Import took 0.041683 seconds .
+  Time since last request: 0.000590 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph
+  artifactKey: Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph using Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19800665ae990e3cf41cef5f408a6004') in 0.002328 seconds
+  Import took 0.006537 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Art/Materials/Lightning/M_Lightning_03.mat
-  artifactKey: Guid(9cbfe78febb153e4a95ef38e4245985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Lightning/M_Lightning_03.mat using Guid(9cbfe78febb153e4a95ef38e4245985d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68b7731ae35e333d5de79b421dd203b') in 0.072587 seconds
-  Import took 0.085749 seconds .
+  Time since last request: 354.785507 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph
+  artifactKey: Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph using Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0dfd2d184279b6b8bd9cf4d25ac041') in 0.006975 seconds
+  Import took 0.012051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.249414 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph
+  artifactKey: Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Liquid.shadergraph using Guid(41f0935ce9485fd41abed8f34de28f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0dfd2d184279b6b8bd9cf4d25ac041') in 0.002941 seconds
+  Import took 0.007506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.582877 seconds.
+  path: Assets/Art/Materials/Environment
+  artifactKey: Guid(062d45c85076f87409fdc03b95c4e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Environment using Guid(062d45c85076f87409fdc03b95c4e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25565da37e1f956c97f1144974829c85') in 0.005596 seconds
+  Import took 0.010318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.419503 seconds.
+  path: Assets/Art/Materials/Flare
+  artifactKey: Guid(544b6a2ab6b86d34587ae4df4d7b7d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Flare using Guid(544b6a2ab6b86d34587ae4df4d7b7d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c792c6b713b04981d830da8c1a8c857d') in 0.005437 seconds
+  Import took 0.009936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.171894 seconds.
+  path: Assets/Art/Materials/Crack
+  artifactKey: Guid(bd525ced9ad527249b7c6d985704e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Crack using Guid(bd525ced9ad527249b7c6d985704e0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8497d7b3ea62b75f6d352bb2384df5fa') in 0.006006 seconds
+  Import took 0.010346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.458986 seconds.
+  path: Assets/Art/Materials/Cloud
+  artifactKey: Guid(6fabfe37350f7db4490995fb2074fe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Cloud using Guid(6fabfe37350f7db4490995fb2074fe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a7527f091a1f1a99f237aef3bd1790') in 0.005751 seconds
+  Import took 0.010257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858166 seconds.
+  path: Assets/Art/Materials/Circle
+  artifactKey: Guid(6d50b53e71642c14bb7975fb5826ff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Circle using Guid(6d50b53e71642c14bb7975fb5826ff75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a955c68e21744db45e27f92f182435') in 0.005625 seconds
+  Import took 0.009928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.036345 seconds.
+  path: Assets/Art/Materials/M_Liquid.mat
+  artifactKey: Guid(88a2abd27c8d07c41ae6048b1e197b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Liquid.mat using Guid(88a2abd27c8d07c41ae6048b1e197b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3473d37bd52810647413b7825d726d7') in 0.325485 seconds
+  Import took 0.329896 seconds .
 
