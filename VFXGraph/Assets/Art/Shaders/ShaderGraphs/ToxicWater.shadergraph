@@ -6297,7 +6297,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "c575fa382f7544269cc7c2b76b9f967e",
     "m_Id": 0,
-    "m_DisplayName": "GradientNoiseTexture",
+    "m_DisplayName": "NoiseTexture",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
