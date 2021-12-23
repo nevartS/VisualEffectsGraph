@@ -15,11 +15,11 @@ C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64383
+54935
 Successfully changed project path to: C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph
 C:/Users/Hi Games 12/Desktop/Projects/VisualEffectsGraph/VFXGraph
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 73.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -36,81 +36,1338 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001870 seconds.
+Registered in 0.001363 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.157 seconds
+- Completed reload, in  1.845 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002783 seconds.
+Registered in 0.002736 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 75.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
+- Completed reload, in  1.179 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3477 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.4 MB.
-System memory in use after: 228.3 MB.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 231.6 MB.
+System memory in use after: 231.5 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3939.
-Total: 3.071200 ms (FindLiveObjects: 0.361700 ms CreateObjectMapping: 0.235400 ms MarkObjects: 2.263100 ms  DeleteObjects: 0.210000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Art/Shaders/Bender
-  artifactKey: Guid(076a5c8a5c3dba848843a08f8abdcc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Shaders/Bender using Guid(076a5c8a5c3dba848843a08f8abdcc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdae6ce28e74aa4f3129848c31e8cbab') in 0.013321 seconds
-  Import took 0.020351 seconds .
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 3970.
+Total: 2.701200 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.176300 ms MarkObjects: 2.015200 ms  DeleteObjects: 0.190900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.432484 seconds.
-  path: Assets/Art/VFX/VFX_SnowStorm/VFX_Graph_SnowStorm.vfx
-  artifactKey: Guid(b98fb4f4fe158b64b9acf07229639635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/VFX/VFX_SnowStorm/VFX_Graph_SnowStorm.vfx using Guid(b98fb4f4fe158b64b9acf07229639635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238352662da9af227e10acefe9da19db') in 0.045655 seconds
-  Import took 0.052145 seconds .
+  path: Assets/Stylized Grass Shader/Materials/StylizedGrassBillboard.mat
+  artifactKey: Guid(7ef3fc2a227270449a21f236addaeee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/Materials/StylizedGrassBillboard.mat using Guid(7ef3fc2a227270449a21f236addaeee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61644edf6ebab719dc5efe3cc5793246') in 0.265760 seconds
+  Import took 0.272104 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.330502 seconds.
-  path: Assets/Art/Shaders/Bender/Spring.shadergraph
-  artifactKey: Guid(cbe547db496a10a44b1a8b64333d96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Shaders/Bender/Spring.shadergraph using Guid(cbe547db496a10a44b1a8b64333d96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69bd0ca1824438f96af3ccef17823528') in 0.012240 seconds
-  Import took 0.019209 seconds .
+  Time since last request: 0.000380 seconds.
+  path: Assets/Stylized Grass Shader/Materials/StylizedGrass.mat
+  artifactKey: Guid(083de6f14cd658749a51f88992865733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/Materials/StylizedGrass.mat using Guid(083de6f14cd658749a51f88992865733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7975c51bd470fcb843d4c24c0a1b6188') in 0.035882 seconds
+  Import took 0.041471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.031015 seconds.
-  path: Assets/Art/Shaders/Bender/Spring.shadergraph
-  artifactKey: Guid(cbe547db496a10a44b1a8b64333d96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Shaders/Bender/Spring.shadergraph using Guid(cbe547db496a10a44b1a8b64333d96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061d361f510e03ed3f0a01ad3e99c84a') in 0.008317 seconds
-  Import took 0.016672 seconds .
+  Time since last request: 10.298117 seconds.
+  path: Assets/Scenes/VFXScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFXScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c178be1ee31a94f6c5b0ae53f09ec1b') in 0.011959 seconds
+  Import took 0.017368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004970 seconds.
-  path: Assets/Art/Shaders/Bender/Spring.shadergraph
-  artifactKey: Guid(cbe547db496a10a44b1a8b64333d96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Shaders/Bender/Spring.shadergraph using Guid(cbe547db496a10a44b1a8b64333d96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061d361f510e03ed3f0a01ad3e99c84a') in 0.007225 seconds
-  Import took 0.012849 seconds .
+  Time since last request: 5.166705 seconds.
+  path: Assets/Prefabs/Bullet_Trail.prefab
+  artifactKey: Guid(140b65e1fc1e8ef4d9279201bde743de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet_Trail.prefab using Guid(140b65e1fc1e8ef4d9279201bde743de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c426e14bd334995c511391e358d0bf') in 0.020407 seconds
+  Import took 0.025840 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: Assets/Prefabs/Bullet_Trail.prefab
+  artifactKey: Guid(140b65e1fc1e8ef4d9279201bde743de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet_Trail.prefab using Guid(140b65e1fc1e8ef4d9279201bde743de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c426e14bd334995c511391e358d0bf') in 0.005471 seconds
+  Import took 0.011776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.319731 seconds.
+  path: Assets/Plugins/Materials/M_Bullet_Trail.mat
+  artifactKey: Guid(d16e0e6ff9458e84fb38e1a5ee19a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Materials/M_Bullet_Trail.mat using Guid(d16e0e6ff9458e84fb38e1a5ee19a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d14fb386784c7c76ea0ca581692bc5') in 0.018579 seconds
+  Import took 0.024280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012590 seconds.
+  path: Assets/Plugins/Materials/M_Bullet_Trail.mat
+  artifactKey: Guid(d16e0e6ff9458e84fb38e1a5ee19a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Materials/M_Bullet_Trail.mat using Guid(d16e0e6ff9458e84fb38e1a5ee19a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d14fb386784c7c76ea0ca581692bc5') in 0.009857 seconds
+  Import took 0.015199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.447977 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6499e7ad2a13483df8d85b8a50da6e6d') in 0.010341 seconds
+  Import took 0.015509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.458003 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7c22152346f1297a8334d96bd9e261') in 0.003782 seconds
+  Import took 0.009650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433391 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7c22152346f1297a8334d96bd9e261') in 0.003598 seconds
+  Import took 0.009369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.972585 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '245228d06620367ffbe8bc64bf0d1a49') in 0.008174 seconds
+  Import took 0.013903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.478931 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_Cliff_LP.OBJ
+  artifactKey: Guid(99abe42c29ff0f649914e1c7477a8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_Cliff_LP.OBJ using Guid(99abe42c29ff0f649914e1c7477a8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da5dbcb3f4cc21a8ec66011cde5edd5') in 0.073329 seconds
+  Import took 0.083116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_Tree.fbx
+  artifactKey: Guid(4f48d0d7f91923a45824a34918262f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_Tree.fbx using Guid(4f48d0d7f91923a45824a34918262f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cad1f719c3a4b6b1a132eb948869d8d') in 0.044916 seconds
+  Import took 0.052406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_Cliff_LP.OBJ
+  artifactKey: Guid(99abe42c29ff0f649914e1c7477a8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_Cliff_LP.OBJ using Guid(99abe42c29ff0f649914e1c7477a8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da5dbcb3f4cc21a8ec66011cde5edd5') in 0.027553 seconds
+  Import took 0.033978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_DemoRock.fbx
+  artifactKey: Guid(f26a561565ad43b45a65a72a57e95951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Models/SGS_DemoRock.fbx using Guid(f26a561565ad43b45a65a72a57e95951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f1db2e6f857a9f4f26890e8414234e') in 0.033348 seconds
+  Import took 0.040403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 348.215644 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50aef14a7593229d796a7008957ca8c6') in 0.006475 seconds
+  Import took 0.012994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519459 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50aef14a7593229d796a7008957ca8c6') in 0.007181 seconds
+  Import took 0.013884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.981257 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c987c77c63e67bc9a75d4311114fe9c') in 0.005699 seconds
+  Import took 0.012699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.563365 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph
+  artifactKey: Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Blur.shadergraph using Guid(597e34f7a7b21de489177dab5f78319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c987c77c63e67bc9a75d4311114fe9c') in 0.006798 seconds
+  Import took 0.015144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.886354 seconds.
+  path: Assets/Art/Materials/M_Blur.mat
+  artifactKey: Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Blur.mat using Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bdadc71dc87f0d7b2db7d89a25b6eb') in 0.030700 seconds
+  Import took 0.037018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 223.773097 seconds.
+  path: Assets/Plugins/Materials
+  artifactKey: Guid(0bca2ffd15f71b64b81823ca64a20016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Materials using Guid(0bca2ffd15f71b64b81823ca64a20016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913cb18663e232b5ef76405d5fb2bea5') in 0.009380 seconds
+  Import took 0.015404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.272729 seconds.
+  path: Assets/Sprites/RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2908a8fbb24561a3c493e4fda2c2e6fd') in 0.038675 seconds
+  Import took 0.046000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003458 seconds.
+  path: Assets/Sprites/RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2908a8fbb24561a3c493e4fda2c2e6fd') in 0.013905 seconds
+  Import took 0.020335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.283201 seconds.
+  path: Assets/Art/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ffebaea9ab53264e5af02d15001e4e') in 0.024193 seconds
+  Import took 0.030587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.498643 seconds.
+  path: Assets/Art/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33867656cf49f75ca68281e7d7ddadf') in 0.008914 seconds
+  Import took 0.015090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013839 seconds.
+  path: Assets/Art/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33867656cf49f75ca68281e7d7ddadf') in 0.010156 seconds
+  Import took 0.016170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.223307 seconds.
+  path: Assets/Art/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a426831860dad4502f8c1193a3429') in 0.014467 seconds
+  Import took 0.020083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026229 seconds.
+  path: Assets/Art/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a426831860dad4502f8c1193a3429') in 0.012225 seconds
+  Import took 0.017909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.550349 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/GrassGround.mat
+  artifactKey: Guid(c61159898c5e47d43b9c29bd436fcb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/GrassGround.mat using Guid(c61159898c5e47d43b9c29bd436fcb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d66e193ad37fa6e7640d27adce5b20') in 0.026890 seconds
+  Import took 0.034479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_red.mat
+  artifactKey: Guid(d4019f9b019ffbd42837f3faf36e3f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_red.mat using Guid(d4019f9b019ffbd42837f3faf36e3f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d6eb7adf80b47d67400b00c900d32f') in 0.043900 seconds
+  Import took 0.051081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_red.mat
+  artifactKey: Guid(adcb9ed8ff834e045b10dd26ad8060a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_red.mat using Guid(adcb9ed8ff834e045b10dd26ad8060a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ede6708ff11135ca4fe58d41f3f5197') in 0.044352 seconds
+  Import took 0.051174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Art/Materials/InteractiveGrass/M_Grass_02.mat
+  artifactKey: Guid(257e1758141679341b098989aae09a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/InteractiveGrass/M_Grass_02.mat using Guid(257e1758141679341b098989aae09a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441154029239bcddb0c7e3662a4301f2') in 0.037309 seconds
+  Import took 0.043202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Gradients/hexagon_gradient.mat
+  artifactKey: Guid(290e95d81c38def4d9c7617fc6d5a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Gradients/hexagon_gradient.mat using Guid(290e95d81c38def4d9c7617fc6d5a7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bbf229258c6abf59fac71118934046') in 0.040388 seconds
+  Import took 0.046525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_purple.mat
+  artifactKey: Guid(b683a1431f5fc0d42bf5ddf91ff5180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_purple.mat using Guid(b683a1431f5fc0d42bf5ddf91ff5180e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c6eaee7bf65ea86c2640a07eb1715b') in 0.038599 seconds
+  Import took 0.044589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_modular.mat
+  artifactKey: Guid(2d2452854321f5449999ef295595600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_modular.mat using Guid(2d2452854321f5449999ef295595600a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eceaafd34a512653a0a2cd2ac1b777f') in 0.043173 seconds
+  Import took 0.049544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_green.mat
+  artifactKey: Guid(573abf21623d4ae45bdeab7f216efcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_green.mat using Guid(573abf21623d4ae45bdeab7f216efcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddbf8c782abe601ca66f6c344dfcfd9') in 0.050494 seconds
+  Import took 0.059283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_yellow.mat
+  artifactKey: Guid(4de7c2aefd7dbfa4785830e814f97d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_yellow.mat using Guid(4de7c2aefd7dbfa4785830e814f97d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c37c4d098a0b5995875ebce17e2373') in 0.037045 seconds
+  Import took 0.043548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_green.mat
+  artifactKey: Guid(1f978c96e18dc4a4da3c398dad33e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_green.mat using Guid(1f978c96e18dc4a4da3c398dad33e27f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d2b283acb687e1cd2df30f3e9ecdb7') in 0.037645 seconds
+  Import took 0.044084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_blue.mat
+  artifactKey: Guid(749f84003edaf754280ceb307c25ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_blue.mat using Guid(749f84003edaf754280ceb307c25ae5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a896a567d101a7d4cf1a7d066f2ff647') in 0.037902 seconds
+  Import took 0.044439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_yellow.mat
+  artifactKey: Guid(a8bf93fda7b098e4fb7f962f0699697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_yellow.mat using Guid(a8bf93fda7b098e4fb7f962f0699697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85447aaa99e16a3c7fabc0984025b7ea') in 0.042479 seconds
+  Import took 0.050294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Art/Materials/Explosion/M_Smoke_02.mat
+  artifactKey: Guid(d8391504587bc1647871043c026d5b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Explosion/M_Smoke_02.mat using Guid(d8391504587bc1647871043c026d5b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71faf3a5cb68a02f932b111e54b9219d') in 0.034704 seconds
+  Import took 0.040982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_purple.mat
+  artifactKey: Guid(be90cf5843ea9d040a6b2469f7aaf9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Laserball/laser_ball_purple.mat using Guid(be90cf5843ea9d040a6b2469f7aaf9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b6e9dc94ea99a2322fcebf23a1788e') in 0.039841 seconds
+  Import took 0.045226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_modular.mat
+  artifactKey: Guid(002927a8b057dbf41ac40a4244af29c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Jet/jet_modular.mat using Guid(002927a8b057dbf41ac40a4244af29c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9671db4403ad9004301923d1a1a5c590') in 0.033571 seconds
+  Import took 0.039323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.347662 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_purple.mat
+  artifactKey: Guid(603ffe0040dce9c49b1f9f72985a5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_purple.mat using Guid(603ffe0040dce9c49b1f9f72985a5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa741a25ecf810a712cde7bff8c5f4e') in 0.045981 seconds
+  Import took 0.053767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/Materials/No Name.mat
+  artifactKey: Guid(96b65026bcc47e34284840516be6992b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Models/Materials/No Name.mat using Guid(96b65026bcc47e34284840516be6992b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ef01d21c22720286f1f2b73d6684ac') in 0.030545 seconds
+  Import took 0.036651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/SphereShield/scifi_shield_smooth.mat
+  artifactKey: Guid(79570a7317085c841b105e3a9df03672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/SphereShield/scifi_shield_smooth.mat using Guid(79570a7317085c841b105e3a9df03672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dd432bb6272ad5604aef9c066597ee') in 0.055343 seconds
+  Import took 0.065024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Portals/portal_modular ADD.mat
+  artifactKey: Guid(064bf1b2df918ba41b8e4817cbbdea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Portals/portal_modular ADD.mat using Guid(064bf1b2df918ba41b8e4817cbbdea35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8985c1fe64363b3fb1aed92cc4e2e8') in 0.083588 seconds
+  Import took 0.095605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Trails/trailmodular.mat
+  artifactKey: Guid(28f3f954bc572de43a3bf96b81c9d1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Trails/trailmodular.mat using Guid(28f3f954bc572de43a3bf96b81c9d1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13af8c6bc5f5c4019ba0424d29a6c7c') in 0.054899 seconds
+  Import took 0.066465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000684 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_yellow.mat
+  artifactKey: Guid(a77827b32ed9d2a47bd41c76d17327eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_yellow.mat using Guid(a77827b32ed9d2a47bd41c76d17327eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6138ec22b148d713b8cf5ad8be8185b7') in 0.050915 seconds
+  Import took 0.061668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Ring/ringmodular.mat
+  artifactKey: Guid(beec3055d2b60c84e814c0fb5f71f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Ring/ringmodular.mat using Guid(beec3055d2b60c84e814c0fb5f71f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b3c46399adb08657dfcd02f92af59') in 0.046504 seconds
+  Import took 0.055409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon_loot.mat
+  artifactKey: Guid(08b74f2b36fa6de4eb482cd7a2eeaf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon_loot.mat using Guid(08b74f2b36fa6de4eb482cd7a2eeaf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f5677e1e141edeeec7ac2d3787e78f') in 0.043236 seconds
+  Import took 0.049247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/SGS_DemoSkybox.mat
+  artifactKey: Guid(0390510663f4d494ab4f3b949c7a01b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/SGS_DemoSkybox.mat using Guid(0390510663f4d494ab4f3b949c7a01b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac48d2966ccee43432dcf71044e8219a') in 0.027384 seconds
+  Import took 0.035901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/StylizedGrassDemo.mat
+  artifactKey: Guid(dca391aeac4c2b249ad85e37db958c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/StylizedGrassDemo.mat using Guid(dca391aeac4c2b249ad85e37db958c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e6823b13ff274c318ed17b1167bc10') in 0.026139 seconds
+  Import took 0.032617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_purple.mat
+  artifactKey: Guid(603ffe0040dce9c49b1f9f72985a5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_purple.mat using Guid(603ffe0040dce9c49b1f9f72985a5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa741a25ecf810a712cde7bff8c5f4e') in 0.020766 seconds
+  Import took 0.027043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_red.mat
+  artifactKey: Guid(8a16324ac9e1d384ca39df523c045862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_small_red.mat using Guid(8a16324ac9e1d384ca39df523c045862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a6b18c2a726eecfa65a9d780e37295') in 0.047002 seconds
+  Import took 0.053176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon_simple.mat
+  artifactKey: Guid(72d0b8a2fa134c641a3bc254822cf00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon_simple.mat using Guid(72d0b8a2fa134c641a3bc254822cf00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b00ad15ebf67a0b3dfd833f1f1e0c2') in 0.073040 seconds
+  Import took 0.079411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Portals/portal_modular DBL.mat
+  artifactKey: Guid(5149734430dfbaf4c9138897b7bcebf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Portals/portal_modular DBL.mat using Guid(5149734430dfbaf4c9138897b7bcebf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5157c612c1bf4948398e6990e3224b4') in 0.032983 seconds
+  Import took 0.038714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/SGS_DemoRock.mat
+  artifactKey: Guid(f2ff1db027aa9e14fb5443794c5a4515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/SGS_DemoRock.mat using Guid(f2ff1db027aa9e14fb5443794c5a4515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1910c379ba3bf331211018998d4cd0f9') in 0.066381 seconds
+  Import took 0.071966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Radial/radial_modular.mat
+  artifactKey: Guid(56887cb5b28420546a4edad4c993ea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Radial/radial_modular.mat using Guid(56887cb5b28420546a4edad4c993ea18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71462e0a8af6c80c7735a2e8491171e') in 0.042986 seconds
+  Import took 0.049287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon.mat
+  artifactKey: Guid(fcfcddeb920aecf4fb368921acc79da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon.mat using Guid(fcfcddeb920aecf4fb368921acc79da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9ed7f7032935e75c4c925a1f3e12ad') in 0.040335 seconds
+  Import took 0.046050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Nova/nova_modular.mat
+  artifactKey: Guid(91b820c6718023749b6161773325e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Nova/nova_modular.mat using Guid(91b820c6718023749b6161773325e346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216925a0c6d78adf92dd01b2268be9b1') in 0.043725 seconds
+  Import took 0.050721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbols.mat
+  artifactKey: Guid(566c8b2582723f046a7763597111cf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbols.mat using Guid(566c8b2582723f046a7763597111cf1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86aff92c37a9be3bd0f0885c942288f3') in 0.040209 seconds
+  Import took 0.046730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_yellow.mat
+  artifactKey: Guid(f3ac6418daeecbb429c992fb9e5e6466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Muzzleflash/muzzleflash_goo_yellow.mat using Guid(f3ac6418daeecbb429c992fb9e5e6466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684e529953c7a51e7b4456811fb42ecc') in 0.042326 seconds
+  Import took 0.050172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon_thick.mat
+  artifactKey: Guid(cf6064b8e7cabff42a9842a1a9785684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/Misc/symbol_hexagon_thick.mat using Guid(cf6064b8e7cabff42a9842a1a9785684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b9093fd778f790d859da1241e535b1') in 0.040586 seconds
+  Import took 0.046943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/TerrainMat.mat
+  artifactKey: Guid(600bf1c39ee701f4d80de61c1391c73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Materials/TerrainMat.mat using Guid(600bf1c39ee701f4d80de61c1391c73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d1bc46d178ea52dcba72e924511650') in 0.397303 seconds
+  Import took 0.403913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/SphereShield/scifi_shield_smooth_dark.mat
+  artifactKey: Guid(b452d77589980ec4dad969c243bdd0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Materials/SphereShield/scifi_shield_smooth_dark.mat using Guid(b452d77589980ec4dad969c243bdd0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcdcbc58883bc65f5d4b6eed50e33de') in 0.057650 seconds
+  Import took 0.064672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.295355 seconds.
+  path: Assets/Art/Textures/CustomTextures/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/CustomTextures/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff436da91542cb1f59442a76f2e83cac') in 0.014474 seconds
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005888 seconds.
+  path: Assets/Art/Textures/CustomTextures/T_RingWhite.png
+  artifactKey: Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/CustomTextures/T_RingWhite.png using Guid(51892dda5cdc26a4aba4020a50b05ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff436da91542cb1f59442a76f2e83cac') in 0.009201 seconds
+  Import took 0.015214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.473481 seconds.
+  path: Assets/Art/Textures/CustomTextures/T_Circle_01.png
+  artifactKey: Guid(ff28a671ec89e0d41aac74480e1abda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/CustomTextures/T_Circle_01.png using Guid(ff28a671ec89e0d41aac74480e1abda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5535a7f3a8b2ea7665590ac81dbf4b45') in 0.024160 seconds
+  Import took 0.032277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.938046 seconds.
+  path: Assets/Art/Textures/CustomTextures/T_Circle_01.png
+  artifactKey: Guid(ff28a671ec89e0d41aac74480e1abda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/CustomTextures/T_Circle_01.png using Guid(ff28a671ec89e0d41aac74480e1abda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a4ea8b2a94b0f2728a511b1919b8d1') in 0.014808 seconds
+  Import took 0.022153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Art/Textures/CustomTextures/T_Circle_01.png
+  artifactKey: Guid(ff28a671ec89e0d41aac74480e1abda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/CustomTextures/T_Circle_01.png using Guid(ff28a671ec89e0d41aac74480e1abda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a4ea8b2a94b0f2728a511b1919b8d1') in 0.013502 seconds
+  Import took 0.019515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 750.701454 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/ShineEffect.shadergraph
+  artifactKey: Guid(40b4799c7cfb69d4295d702a4bbecb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/ShineEffect.shadergraph using Guid(40b4799c7cfb69d4295d702a4bbecb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72a534baec9d18becd7f9bd6af9cfcf') in 0.011991 seconds
+  Import took 0.018589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191036 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/ShineEffect.shadergraph
+  artifactKey: Guid(40b4799c7cfb69d4295d702a4bbecb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/ShineEffect.shadergraph using Guid(40b4799c7cfb69d4295d702a4bbecb17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72a534baec9d18becd7f9bd6af9cfcf') in 0.006112 seconds
+  Import took 0.011927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.160556 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Albedo.png
+  artifactKey: Guid(413414fd865d69349b51ca7b0cc978a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Albedo.png using Guid(413414fd865d69349b51ca7b0cc978a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0ab9bfc9435518474e12125980d080') in 0.042935 seconds
+  Import took 0.052824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainGrass.png
+  artifactKey: Guid(fac83ed2d9b32f34e83fc5a0c9eee3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainGrass.png using Guid(fac83ed2d9b32f34e83fc5a0c9eee3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d002829a0d6dbae25883bbfc7cbc4a2') in 0.015580 seconds
+  Import took 0.023745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainDirt.png
+  artifactKey: Guid(d9575597438004e4f8b5af1d2b6cf3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainDirt.png using Guid(d9575597438004e4f8b5af1d2b6cf3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95b1d09c7d6ff2d8aa2be29ae0d1c93') in 0.026148 seconds
+  Import took 0.032499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_DemoSkybox.png
+  artifactKey: Guid(c31991541d963334d9174a628605e2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_DemoSkybox.png using Guid(c31991541d963334d9174a628605e2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cc33b1ce00246ac1fad0138688ea1b') in 0.057783 seconds
+  Import took 0.065467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TreeBranch.png
+  artifactKey: Guid(a129b8d401adb774f872d8415d55065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TreeBranch.png using Guid(a129b8d401adb774f872d8415d55065c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340c2c65cc08c6eb057c36463028ed33') in 0.026987 seconds
+  Import took 0.035579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainGrass_Normals.png
+  artifactKey: Guid(28c6dc9cc850e4948ac00c048d5dc245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainGrass_Normals.png using Guid(28c6dc9cc850e4948ac00c048d5dc245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eefdea639220c7c6565851a2b9f9dc') in 0.028032 seconds
+  Import took 0.035774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainDirt_MaskMap.png
+  artifactKey: Guid(b5f33a4a09d41eb48a3c9a27b1bbc6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainDirt_MaskMap.png using Guid(b5f33a4a09d41eb48a3c9a27b1bbc6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b470ee284e313db200701c4443535d20') in 0.035806 seconds
+  Import took 0.043628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainGrass_MaskMap.png
+  artifactKey: Guid(aacef9e35d1b4ce4dae3a2cf248927fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainGrass_MaskMap.png using Guid(aacef9e35d1b4ce4dae3a2cf248927fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4bbee809ddcd5b88c3cf4670aa34fc') in 0.032128 seconds
+  Import took 0.042384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Albedo.png
+  artifactKey: Guid(413414fd865d69349b51ca7b0cc978a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Albedo.png using Guid(413414fd865d69349b51ca7b0cc978a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0ab9bfc9435518474e12125980d080') in 0.010921 seconds
+  Import took 0.016814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainDirt_Normals.png
+  artifactKey: Guid(ec8bacf33688eb343b2e728c90a15127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainDirt_Normals.png using Guid(ec8bacf33688eb343b2e728c90a15127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e600c65692c326a09e284c6d835c903') in 0.028718 seconds
+  Import took 0.037035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Rocks_diffuse.png
+  artifactKey: Guid(b86db4e722768fc45ac6c5bd7f2e1e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Rocks_diffuse.png using Guid(b86db4e722768fc45ac6c5bd7f2e1e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bc3503cc44297171374e1fbd222621') in 0.013454 seconds
+  Import took 0.020211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainCliff_MaskMap.png
+  artifactKey: Guid(ec0d2fbd422d36f44a1de0d26e54e729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainCliff_MaskMap.png using Guid(ec0d2fbd422d36f44a1de0d26e54e729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '265afb0720c1126021942457d308e891') in 0.030812 seconds
+  Import took 0.038392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Terrain/SGS_DemoTerrain.asset
+  artifactKey: Guid(ee8174ea71a502546a701e7ff48c3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Terrain/SGS_DemoTerrain.asset using Guid(ee8174ea71a502546a701e7ff48c3793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aae63f1164bd784658488f83878958') in 0.052887 seconds
+  Import took 0.060290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainCliff.png
+  artifactKey: Guid(46a6bbeaeb655b041bee53434a13f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainCliff.png using Guid(46a6bbeaeb655b041bee53434a13f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d6edbd52d53756d2cee51bad7eaf03') in 0.023756 seconds
+  Import took 0.033363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Rocks_normal.png
+  artifactKey: Guid(08dc8971e88111141b6faa8a8f91c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Rocks_normal.png using Guid(08dc8971e88111141b6faa8a8f91c917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec104d31a1f7e39d26c0f7690b2fc9a') in 0.018814 seconds
+  Import took 0.027934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Normals.png
+  artifactKey: Guid(0c84878951657674c8cbef64202857fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Normals.png using Guid(0c84878951657674c8cbef64202857fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c7ef3333f587804eec85944800964') in 0.030792 seconds
+  Import took 0.040234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainCliff_Normals.png
+  artifactKey: Guid(08e26d0ad14ee8445b4fcce59d9168e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_TerrainCliff_Normals.png using Guid(08e26d0ad14ee8445b4fcce59d9168e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7087720d5faf1a61e687fbe04e9d55bd') in 0.031029 seconds
+  Import took 0.039846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Normals.png
+  artifactKey: Guid(0c84878951657674c8cbef64202857fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Grass Shader/_Demo/DemoAssets/Textures/SGS_Cliff_Normals.png using Guid(0c84878951657674c8cbef64202857fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1c7ef3333f587804eec85944800964') in 0.015750 seconds
+  Import took 0.026131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 494.782075 seconds.
+  path: Assets/Settings/Post-Processing/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Post-Processing/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c5984d3c682e4938d4b39c4f44f065') in 0.015998 seconds
+  Import took 0.024160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003712 seconds.
+  path: Assets/Settings/Post-Processing/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Post-Processing/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c5984d3c682e4938d4b39c4f44f065') in 0.004321 seconds
+  Import took 0.010117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.879355 seconds.
+  path: Assets/Art/Materials/M_Blur.mat
+  artifactKey: Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Blur.mat using Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693a36c1143f3af9d27c53c8a770893a') in 0.048604 seconds
+  Import took 0.060235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012930 seconds.
+  path: Assets/Art/Materials/M_Blur.mat
+  artifactKey: Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Blur.mat using Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693a36c1143f3af9d27c53c8a770893a') in 0.022164 seconds
+  Import took 0.029901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4812.417522 seconds.
+  path: Assets/Art/Shaders/ShaderGraphs/Water.shadergraph
+  artifactKey: Guid(d48877c98486b604283cf92c344c43ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Shaders/ShaderGraphs/Water.shadergraph using Guid(d48877c98486b604283cf92c344c43ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66daa4e071cf8b33c40eda344c691faf') in 0.014420 seconds
+  Import took 0.021427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.594010 seconds.
+  path: Assets/Art/Materials/M_Water.mat
+  artifactKey: Guid(8092a41ec76621c4dad334221c03364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Water.mat using Guid(8092a41ec76621c4dad334221c03364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8f9e1544d478148b1d13ec23ffaf6a') in 0.029113 seconds
+  Import took 0.034543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.445871 seconds.
+  path: Assets/Art/Materials/M_Water.mat
+  artifactKey: Guid(8092a41ec76621c4dad334221c03364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Water.mat using Guid(8092a41ec76621c4dad334221c03364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143591cc6fa145a61ff73068ad48dae2') in 0.674510 seconds
+  Import took 0.682870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 250.766076 seconds.
+  path: Assets/Art/Materials/M_Blur.mat
+  artifactKey: Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Blur.mat using Guid(ac865d1c7d7f0b04b9eade6416b4d1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddfb533a9ef878d19879e82725d60ee') in 0.020236 seconds
+  Import took 0.025686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Art/Materials/M_Water.mat
+  artifactKey: Guid(8092a41ec76621c4dad334221c03364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/M_Water.mat using Guid(8092a41ec76621c4dad334221c03364b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7cc66dd96b5f3fd4a4c278e972e2257') in 0.040825 seconds
+  Import took 0.046847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 401.836594 seconds.
+  path: Assets/Art/Textures/TWaterNormla.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/TWaterNormla.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712f196eff73a0cafaa44dd5151c7c28') in 0.020254 seconds
+  Import took 0.029396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.752097 seconds.
+  path: Assets/Art/Textures/T_WaterNormal.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_WaterNormal.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be098bf2678b81939dc9010dcda979e1') in 0.017621 seconds
+  Import took 0.023596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005435 seconds.
+  path: Assets/Art/Textures/T_WaterNormal.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_WaterNormal.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be098bf2678b81939dc9010dcda979e1') in 0.015387 seconds
+  Import took 0.022671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.763345 seconds.
+  path: Assets/Art/Textures/T_Water_N.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_Water_N.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a2e4b4e7c861cd453fe8b997d2585c') in 0.016130 seconds
+  Import took 0.022494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005119 seconds.
+  path: Assets/Art/Textures/T_Water_N.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_Water_N.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a2e4b4e7c861cd453fe8b997d2585c') in 0.016486 seconds
+  Import took 0.023008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.006459 seconds.
+  path: Assets/Art/Textures/T_WaterNormal_N_02.jpg
+  artifactKey: Guid(c28d978b6a41eff489e3b512e06978c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_WaterNormal_N_02.jpg using Guid(c28d978b6a41eff489e3b512e06978c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fa0b7ac33c66dd4daaf4c27f2274b2') in 0.019720 seconds
+  Import took 0.025979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.640121 seconds.
+  path: Assets/Art/Textures/T_Water_N_02.jpg
+  artifactKey: Guid(c28d978b6a41eff489e3b512e06978c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_Water_N_02.jpg using Guid(c28d978b6a41eff489e3b512e06978c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c293679da0ac50b35880d95d6eb948') in 0.016666 seconds
+  Import took 0.023230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007758 seconds.
+  path: Assets/Art/Textures/T_Water_N_02.jpg
+  artifactKey: Guid(c28d978b6a41eff489e3b512e06978c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_Water_N_02.jpg using Guid(c28d978b6a41eff489e3b512e06978c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c293679da0ac50b35880d95d6eb948') in 0.013872 seconds
+  Import took 0.019350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.731160 seconds.
+  path: Assets/Art/Textures/T_Water_N_01.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_Water_N_01.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f6013bab6d3a73d80a4589cdfce016') in 0.016042 seconds
+  Import took 0.023046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003822 seconds.
+  path: Assets/Art/Textures/T_Water_N_01.jpg
+  artifactKey: Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Textures/T_Water_N_01.jpg using Guid(cd7d5c08da025c04a96e38748ee020bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f6013bab6d3a73d80a4589cdfce016') in 0.019400 seconds
+  Import took 0.024946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.699890 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_blue.png
+  artifactKey: Guid(aeabc5d302d027d498711ae2ce96fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_blue.png using Guid(aeabc5d302d027d498711ae2ce96fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae5ae2572ea560ed6698d85218cd8f') in 0.057388 seconds
+  Import took 0.064824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_purple.png
+  artifactKey: Guid(a334254c09c85294d8ffe9ec69b11665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_purple.png using Guid(a334254c09c85294d8ffe9ec69b11665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80abb30c7682a61e0f939e7db2c3c53') in 0.044013 seconds
+  Import took 0.050826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_modular.png
+  artifactKey: Guid(a9afc61f5dce6c64887d6e8a7efd9130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_modular.png using Guid(a9afc61f5dce6c64887d6e8a7efd9130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cda79f6da1fb5c76e6ed7e0ec441ba') in 0.039658 seconds
+  Import took 0.046730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_computers_i.png
+  artifactKey: Guid(1be3e1ac192809c41b681abaf55cd9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_computers_i.png using Guid(1be3e1ac192809c41b681abaf55cd9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e24b0c9c23e2492d73f9ae4672d416') in 0.026000 seconds
+  Import took 0.033502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_red.png
+  artifactKey: Guid(0e16285cfba6bde46aeb326835d14804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_red.png using Guid(0e16285cfba6bde46aeb326835d14804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f254cacac22f5316fbd704bc2fb0b30') in 0.042822 seconds
+  Import took 0.049610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights01.png
+  artifactKey: Guid(8d755afc1a4438b43a207f2317449b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights01.png using Guid(8d755afc1a4438b43a207f2317449b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5bf41ccd2ea684902aa5e1dfd25be8') in 0.026409 seconds
+  Import took 0.032587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_computers_n.png
+  artifactKey: Guid(6023aeeeae7daab41aa0ad4eb0ca4b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_computers_n.png using Guid(6023aeeeae7daab41aa0ad4eb0ca4b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3311f56489ebdb6cc8e3077bc24540bc') in 0.026199 seconds
+  Import took 0.032054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal01_n.png
+  artifactKey: Guid(5f4b8a2f983a7584cb5c6979c8d861c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal01_n.png using Guid(5f4b8a2f983a7584cb5c6979c8d861c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aacc19948a48ed9f84fb5c7fe0767a2') in 0.025491 seconds
+  Import took 0.031162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_computers.png
+  artifactKey: Guid(e9a52fb87a2a82d4ab07816db6a6274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_computers.png using Guid(e9a52fb87a2a82d4ab07816db6a6274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a05c91d64fac47bd76066b7097677a') in 0.029524 seconds
+  Import took 0.035081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_yellow.png
+  artifactKey: Guid(fda9d0d6dd696074d8c9635bfa5dab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_yellow.png using Guid(fda9d0d6dd696074d8c9635bfa5dab95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd7d23d98729716a4fee6ebf1325554') in 0.046083 seconds
+  Import took 0.052537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights02.png
+  artifactKey: Guid(dacd1637b96000a499928cf64898ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights02.png using Guid(dacd1637b96000a499928cf64898ffba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383acf1d9fb6970556fcabafc80dde3d') in 0.028466 seconds
+  Import took 0.034769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal01.png
+  artifactKey: Guid(7c24d556e78e0084e9c33827c5802b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal01.png using Guid(7c24d556e78e0084e9c33827c5802b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f7dea2832574814ebe5a604079f097') in 0.025768 seconds
+  Import took 0.031427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights_n.png
+  artifactKey: Guid(b8db507698ff874409d4164b9cf0632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights_n.png using Guid(b8db507698ff874409d4164b9cf0632e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1508b6337cf270e402f4343a750165') in 0.027711 seconds
+  Import took 0.034833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_blue.png
+  artifactKey: Guid(aeabc5d302d027d498711ae2ce96fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_blue.png using Guid(aeabc5d302d027d498711ae2ce96fdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae5ae2572ea560ed6698d85218cd8f') in 0.018736 seconds
+  Import took 0.024915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_green.png
+  artifactKey: Guid(60f3a3909173f714ba34d0d07abda54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lightning_green.png using Guid(60f3a3909173f714ba34d0d07abda54d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1509e37e4b172e417afd4ce3f291ebd7') in 0.043316 seconds
+  Import took 0.049477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metalplatewall01.png
+  artifactKey: Guid(9e64a7d4f0662204096bc86c0fa60bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metalplatewall01.png using Guid(9e64a7d4f0662204096bc86c0fa60bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326fb27cab81c65af877439c95c1825') in 0.025393 seconds
+  Import took 0.032184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights_i.png
+  artifactKey: Guid(16d6f898639232d4f8e8c1af61a20d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metal_colorwall_lights_i.png using Guid(16d6f898639232d4f8e8c1af61a20d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f1fa5ad057dd8f8aba3a4e4feb2a2') in 0.026869 seconds
+  Import took 0.034470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metalplatewall01_n.png
+  artifactKey: Guid(40e4389ad802dc54bba940a878cf7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Textures/Textures/metalplatewall01_n.png using Guid(40e4389ad802dc54bba940a878cf7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c995e7e880adcdc09b080c0d6c61316') in 0.026100 seconds
+  Import took 0.032500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 659.292813 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_orange.png
+  artifactKey: Guid(582765c43508bb8448481000e5a5d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_orange.png using Guid(582765c43508bb8448481000e5a5d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235ae3a888a958d3f054ec07c4ea6184') in 0.027826 seconds
+  Import took 0.035811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_red.png
+  artifactKey: Guid(d11dd56859c121f48b9d8114f4800536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_red.png using Guid(d11dd56859c121f48b9d8114f4800536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf903496b87b22a40f071b9885759283') in 0.028182 seconds
+  Import took 0.037042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_orange.png
+  artifactKey: Guid(582765c43508bb8448481000e5a5d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_orange.png using Guid(582765c43508bb8448481000e5a5d0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235ae3a888a958d3f054ec07c4ea6184') in 0.006855 seconds
+  Import took 0.012580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lasergreen.png
+  artifactKey: Guid(362602f665a423b4087c81176116f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lasergreen.png using Guid(362602f665a423b4087c81176116f0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a7f036fc10ecd3038e7908d3250112') in 0.025609 seconds
+  Import took 0.032223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserpurple.png
+  artifactKey: Guid(274203aabf17b9343bbc8aa9ad4bc023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserpurple.png using Guid(274203aabf17b9343bbc8aa9ad4bc023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8818afd27791ae180ac14efe62975f50') in 0.023623 seconds
+  Import took 0.030093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserred.png
+  artifactKey: Guid(215c84a2f36d6ac44a1f04a7ced0a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserred.png using Guid(215c84a2f36d6ac44a1f04a7ced0a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4474b718ea96df383113ef72a9678c83') in 0.025884 seconds
+  Import took 0.031933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lasermodular.png
+  artifactKey: Guid(9b7bf77c7509143478dc23f1e35ff353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lasermodular.png using Guid(9b7bf77c7509143478dc23f1e35ff353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110c19f27bd73c44af2593d8fae98bd9') in 0.022915 seconds
+  Import took 0.029631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lensflare.png
+  artifactKey: Guid(2e9baf8e427b5e04d90088a52788f21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/lensflare.png using Guid(2e9baf8e427b5e04d90088a52788f21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f4a6b32361e77624c5b62e9e185407') in 0.023484 seconds
+  Import took 0.029582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserblue.png
+  artifactKey: Guid(b254004ccf777d948adb88378159927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserblue.png using Guid(b254004ccf777d948adb88378159927d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ce2b3cae20cba3b949d7167e69e44a') in 0.021971 seconds
+  Import took 0.028602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_purple.png
+  artifactKey: Guid(b3a6f7b30b85ce448b42ce216af42499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_purple.png using Guid(b3a6f7b30b85ce448b42ce216af42499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f349910e7fe2b31119f63782354155') in 0.023147 seconds
+  Import took 0.029424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_yellow.png
+  artifactKey: Guid(a2a1f82c858f23d4aaf1dee724efd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_yellow.png using Guid(a2a1f82c858f23d4aaf1dee724efd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af52e250c04115f76d7fa04c1fd608b') in 0.023122 seconds
+  Import took 0.029759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_blue.png
+  artifactKey: Guid(f7c30124a23350f4da816b95799eaa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_blue.png using Guid(f7c30124a23350f4da816b95799eaa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98190964ed9f6ae31eeeafcad05df48') in 0.023520 seconds
+  Import took 0.030401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_yellow.png
+  artifactKey: Guid(3f224b9d978fe1b4ca8e91bec7fdf47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_yellow.png using Guid(3f224b9d978fe1b4ca8e91bec7fdf47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5447ffb90e3b62fad7d75bb221a2879e') in 0.047434 seconds
+  Import took 0.054590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_blue.png
+  artifactKey: Guid(1ce2913984d614a4cbae3215aa461fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_blue.png using Guid(1ce2913984d614a4cbae3215aa461fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f915142c49fe1c2b88ecefc6329602') in 0.024918 seconds
+  Import took 0.033447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_purple.png
+  artifactKey: Guid(a501db896001a564b95f6118d9d43872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_purple.png using Guid(a501db896001a564b95f6118d9d43872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af42e667d0538cb5eea763989b2da30') in 0.024135 seconds
+  Import took 0.031218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_red.png
+  artifactKey: Guid(e4b63025f770b064991642f5a9e9b3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_red.png using Guid(e4b63025f770b064991642f5a9e9b3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f1a96d1b6492ce537fa9706d78d7d6') in 0.024575 seconds
+  Import took 0.031005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_green.png
+  artifactKey: Guid(aa5df06a13848bc4b8b79ddd3e4f2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_green.png using Guid(aa5df06a13848bc4b8b79ddd3e4f2df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b5ef86981aa02c1dea100b4cdb4d00') in 0.023658 seconds
+  Import took 0.029892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_red.png
+  artifactKey: Guid(4ee980e74676fcd4ca0b6b3b2d197124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_red.png using Guid(4ee980e74676fcd4ca0b6b3b2d197124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0c39de5b78fdeabe58cf630d4fb3cd') in 0.023918 seconds
+  Import took 0.031037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_green.png
+  artifactKey: Guid(c3e1e7ec7f4bfb24f95d9b3e00c6115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_green.png using Guid(c3e1e7ec7f4bfb24f95d9b3e00c6115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cc884dc5d5a7a9a2f2f7a9cd6a3568') in 0.043805 seconds
+  Import took 0.051528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_modular.png
+  artifactKey: Guid(9f110eee836f82a48b69fccacf5641d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_modular.png using Guid(9f110eee836f82a48b69fccacf5641d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97c078be74985200fbe85901df241eb') in 0.024270 seconds
+  Import took 0.032024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_green.png
+  artifactKey: Guid(c3e1e7ec7f4bfb24f95d9b3e00c6115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_green.png using Guid(c3e1e7ec7f4bfb24f95d9b3e00c6115a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cc884dc5d5a7a9a2f2f7a9cd6a3568') in 0.013416 seconds
+  Import took 0.019335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_small_green.png
+  artifactKey: Guid(ec713c75e5a53ef4d824e473ac0ef433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_small_green.png using Guid(ec713c75e5a53ef4d824e473ac0ef433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2c9e952794d216bb2849d92ee29bd1') in 0.026605 seconds
+  Import took 0.034573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_small_blue.png
+  artifactKey: Guid(a2fb134a1b0144847b20a323711fd703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_small_blue.png using Guid(a2fb134a1b0144847b20a323711fd703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ef86a76f7765bed5ff42d486b26fa5') in 0.023851 seconds
+  Import took 0.030396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_red.png
+  artifactKey: Guid(d78130fbef12eca4ea29a0ac9c0d32fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_red.png using Guid(d78130fbef12eca4ea29a0ac9c0d32fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b156f1203f91ded4e61e6e62389de') in 0.042319 seconds
+  Import took 0.049999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_yellow.png
+  artifactKey: Guid(d5a5462ee2391134c9696fd7fc6d8135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_yellow.png using Guid(d5a5462ee2391134c9696fd7fc6d8135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab80fc9e87cef57befb968d38063974') in 0.023068 seconds
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_green.png
+  artifactKey: Guid(87b57cd33e016d046ad14c9184f88eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_green.png using Guid(87b57cd33e016d046ad14c9184f88eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad42ac5af9e1416494519511c57dd51') in 0.024461 seconds
+  Import took 0.032018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_blue.png
+  artifactKey: Guid(ea2f2cc6c07b41e4dba2cc56f8f6d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_blue.png using Guid(ea2f2cc6c07b41e4dba2cc56f8f6d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cbe8c0ff4e2ffb1f1e6f8fc26f65e1') in 0.022598 seconds
+  Import took 0.028779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_modular.png
+  artifactKey: Guid(ff57f5c199d0e0f48a41ccc61e3c1895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_modular.png using Guid(ff57f5c199d0e0f48a41ccc61e3c1895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84700f35b4dff281490aba4de97e3fde') in 0.028874 seconds
+  Import took 0.034930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_modular.png
+  artifactKey: Guid(532101640d7457749a70dbd25a86833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_small_modular.png using Guid(532101640d7457749a70dbd25a86833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a40146a57b24999ccee6dfd7742e5ce') in 0.023777 seconds
+  Import took 0.030972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_purple.png
+  artifactKey: Guid(b3a6f7b30b85ce448b42ce216af42499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_purple.png using Guid(b3a6f7b30b85ce448b42ce216af42499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f349910e7fe2b31119f63782354155') in 0.006919 seconds
+  Import took 0.013227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_purple.png
+  artifactKey: Guid(542094540d14de04e8b1698f47d23b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_fire_purple.png using Guid(542094540d14de04e8b1698f47d23b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89179efd35e5fb5b53e963bad41d8532') in 0.043723 seconds
+  Import took 0.050939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_purple.png
+  artifactKey: Guid(c31bdc70311ef494284a8f91ed459f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/muzzleflash_goo_purple.png using Guid(c31bdc70311ef494284a8f91ed459f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a7e3c4a637f0973bd5ce27548202b') in 0.026080 seconds
+  Import took 0.034729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_yellow.png
+  artifactKey: Guid(a2a1f82c858f23d4aaf1dee724efd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laserbeam_yellow.png using Guid(a2a1f82c858f23d4aaf1dee724efd3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af52e250c04115f76d7fa04c1fd608b') in 0.009085 seconds
+  Import took 0.015014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laseryellow.png
+  artifactKey: Guid(e33dafca40915c04e865e24e70ad7756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Textures/laseryellow.png using Guid(e33dafca40915c04e865e24e70ad7756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c51faaa0781a555bdb5e7e97fed121') in 0.025432 seconds
+  Import took 0.031597 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
