@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2903701312064459719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa0ef948bee3975418fd9c43f38032e0, type: 3}
+  m_Name: GrabPassRendererFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _timing: 0
+  _grabbedTextureName: _GrabbedTexture
+  _shaderLightModes:
+  - UseColorTexture
+  _sortingCriteria: 23
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28,10 +46,10 @@ MonoBehaviour:
     materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
   m_OpaqueLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_TransparentLayerMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_DefaultStencilState:
     overrideStencilState: 0
     stencilReference: 0
@@ -42,3 +60,37 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
+--- !u!114 &4421249795958190311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0530269b76f8a2418b8dff32cdb802a, type: 3}
+  m_Name: GrabAfterTransparentFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    TextureName: _GrabPassTransparent
+    LayerMask:
+      m_Bits: 0
+--- !u!114 &9117660056046488089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0530269b76f8a2418b8dff32cdb802a, type: 3}
+  m_Name: GrabAfterTransparentFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    TextureName: _GrabPassTransparent
+    LayerMask:
+      m_Bits: 64
